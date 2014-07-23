@@ -4,6 +4,8 @@ go get -u github.com/nsf/gocode
 
 go get -u github.com/jstemmer/gotags
 
+cp -r $GOROOT/misc/vim/* ~/.vimrc/
+
 start vi
 
 :BundleInstall
