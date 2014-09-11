@@ -6,6 +6,8 @@ go get -u github.com/nsf/gocode
 
 go get -u github.com/jstemmer/gotags
 
+sudo apt-get install ctags
+
 cp -r $GOROOT/misc/vim/* ~/.vim/
 
 start vi
