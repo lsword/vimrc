@@ -67,8 +67,8 @@ set fileencodings=ucs-bom,utf-8,gbk
 "开始使用Vundle的必须配置
 set nocompatible
 "filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
 "使用Vundle来管理Vundle
 Bundle 'gmarik/vundle'
