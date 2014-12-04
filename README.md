@@ -1,6 +1,6 @@
-git clone https:https://github.com/lsword/vimrc.git ~/
+git clone https://github.com/lsword/vimrc.git ~/
 
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 go get -u github.com/nsf/gocode
 
@@ -14,4 +14,8 @@ start vi
 
 :BundleInstall
 
-restart vi
+exit vi
+
+cp -r ~/.vim/bundle/vim-colorschemes/colors ~/.vim
+
+start vi
