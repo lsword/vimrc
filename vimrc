@@ -207,3 +207,9 @@ inoremap <c-j> <c-x><c-o>
 "背景主题颜色
 colorscheme hybrid
 set t_Co=256 
+
+"绑定调整窗口大小的快捷键
+nmap    w=  :resize +3<CR>
+nmap    w-  :resize -3<CR>
+nmap    w,  :vertical resize -3<CR>
+nmap    w.  :vertical resize +3<CR>
